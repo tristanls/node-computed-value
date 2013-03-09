@@ -7,7 +7,7 @@
 
 var ComputedValueStream = require('computed-value-stream');
 
-var computedValue = function computedProperty() {
+var computedValue = function computedValue() {
   var computedValueStream = new ComputedValueStream();
 
   if ( arguments.length == 0) return computedValueStream;
