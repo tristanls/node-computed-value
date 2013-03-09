@@ -10,9 +10,9 @@ var ComputedValueStream = require('computed-value-stream');
 var computedValue = function computedValue() {
   var computedValueStream = new ComputedValueStream();
 
-  if ( arguments.length == 0) return computedValueStream;
+  if (arguments.length == 0) return computedValueStream;
 
-  if ( arguments.length == 1 && typeof arguments[0] != 'function') {
+  if (arguments.length == 1 && typeof arguments[0] != 'function') {
     computedValueStream.write(arguments[0]);
     return computedValueStream;
   }
