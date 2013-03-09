@@ -32,7 +32,7 @@ fullName.on('update', function(updatedValue) {
   console.log('update:', updatedValue);
 });
 
-lastName.write('Johnson');
+last.write('Johnson');
 ```
 
 The output of running the above script will be:
