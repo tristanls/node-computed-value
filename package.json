@@ -1,0 +1,24 @@
+{
+  "name": "computed-value",
+  "version": "0.1.0",
+  "description": "Computed values in reactive style of programming",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.9.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/node-computed-value.git"
+  },
+  "keywords": [
+    "reactive",
+    "computed",
+    "property",
+    "value"
+  ],
+  "dependencies": {
+    "computed-value-stream": "0.1.0"
+  },
+  "author": "Tristan Slominski <tristan.slominski@gmail.com>",
+  "license": "MIT"
+}
