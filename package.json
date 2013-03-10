@@ -6,6 +6,9 @@
   "engines": {
     "node": ">=0.9.12"
   },
+  "dependencies": {
+    "computed-value-stream": "0.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:tristanls/node-computed-value.git"
@@ -16,9 +19,6 @@
     "property",
     "value"
   ],
-  "dependencies": {
-    "computed-value-stream": "0.1.0"
-  },
   "author": "Tristan Slominski <tristan.slominski@gmail.com>",
   "license": "MIT"
 }
