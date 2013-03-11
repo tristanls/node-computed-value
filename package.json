@@ -1,6 +1,6 @@
 {
   "name": "computed-value",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Computed values in reactive style of programming",
   "main": "index.js",
   "engines": {
